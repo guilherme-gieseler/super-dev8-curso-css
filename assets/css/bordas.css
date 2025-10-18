@@ -1,0 +1,87 @@
+/*top-cima
+left-esquerda
+botton-baixo
+right-direita*/
+
+.demonstracao {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 220px;
+    height: 100px;
+    margin: 6px;
+    padding: 8px;
+}
+
+.borda-solida {
+    border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1px;
+
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-bottom-width: 1px;
+
+    border-right-style: solid;
+    border-right-color: black;
+    border-right-width: 1px;
+}
+
+.borda-dashed {
+    border-top: 4px solid #ff0000;
+    border-right: 4px solid #ff0000;
+    border-bottom: 4px solid #ff0000;
+    border-left: 4px solid #ff0000;
+}
+
+.borda-dotted {
+    width: 6px 6px 6px 6px;
+    border-style: dotted dotted dotted dotted;
+    border-color: #0000ff #0000ff #0000ff #0000ff;
+}
+
+.borda-double {
+    border-width: 6px 8px;
+    border-color: #8a2be2;
+    border-style: double;
+}
+
+.borda-groove {
+    border: 6px #7a3ab6 groove;
+}
+
+.borda-inset {
+    border: 6px #00ffff inset;
+}
+
+.borda-ridge {
+    border: 6px #bc8f8f ridge
+}
+
+.borda-outset {
+    border: 6px #adff2f outset;
+    border-radius: 10px;
+}
+
+.borda-radius-diferentes:hover {
+    border-color: #000000;
+    cursor: pointer;
+
+}
+
+.borda-radius-diferentes {
+    border: 8px #ffff00 dashed;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 32px;
+}
+
+.borda-radius-iguais {
+    border: 4px #ff00ff dashed;
+    border-radius: 8px;
+}
