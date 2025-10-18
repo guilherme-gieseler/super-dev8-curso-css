@@ -1,3 +1,17 @@
+/* Css reset */
+
+body{margin: 0; padding: 0;}
+
 h2{color: rgb(42, 255, 0);}
 
 /* cor por RGB */
+
+a{color: #ffffff;
+  text-decoration: none;
+  
+  /*txt decoration faz a sintaxe para textos .especiais.*/
+}
+ 
+a:hover{color: orangered;}
+/*hover serve para ação indentificar mouse encima do elemento */
+div{background-color: blue;}
