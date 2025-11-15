@@ -136,3 +136,55 @@ div.section {
     align-items: baseline;
 }
 
+.flex-wrap{flex-wrap: wrap }
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: flex-start;
+    background: #eee;
+  }
+
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: center;
+    background: #eee;
+  }
+  
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: flex-end;
+    background: #eee;
+  }
+
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-around ;
+    background: #eee;
+  }
+
+  .container5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-between ;
+    background: #eee;
+  }
+
+  .container6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-evenly;
+    background: #eee;
+  }
+
+
+ 
