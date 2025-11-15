@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../assets/css/flexbox/flexbox-direction.css">
+</head>
+
+<body>
+    <h1>Exemplos Básicos de Flexbox</h1>
+        
+    <div class="section">
+        <h2>flex-direction</h2>
+        <h3>Linha (row)</h3>
+        <p class="descricao">
+            <strong>display: flex;</strong> + <strong>flex-direction: row;</strong> (padrão).
+            Os itens ficam lado a lado horizontal.
+        </p>
+        <div class="flex-container exemplo1">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Coluna (column)</h3>
+        <p class="descricao">
+            <strong>flex-direction: column;</strong>.
+            Os itens ficam empilhados na vertical.
+        </p>
+        <div class="flex-container exemplo2">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Linha Reversa (row-reverse)</h3>
+        <p class="descricao">
+            <strong>flex-direction: row-reverse;</strong>.
+            Os itens ficam lado a lado horizontal, alinhados a direita em órdem reversa
+        </p>
+        <div class="flex-container exemplo3">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Coluna Reversa (column-reverse)</h3>
+        <p class="descricao">
+            <strong>flex-direction: column-reverse;</strong>.
+            Os itens ficam empilhados na vertical na base do elemnto em órdem reversa.
+        </p>
+        <div class="flex-container exemplo4">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Justify-content</h2>
+        <p>define como os elementos são distribuídos horizontalmente.</p>
+        <h3>Exemplo justify-content: flex-start</h3>
+        <div class="flex-container exemplo1 justify-content-flex-start mb-2">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Exemplo justify-content: center</h3>
+        <div class="flex-container exemplo1 justify-content-center">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Exemplo justify-content: flex-end</h3>
+        <div class="flex-container exemplo1 justify-content-flex-end">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Exemplo justify-content: space-around</h3>
+        <div class="flex-container exemplo1 justify-content-space-around">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Exemplo justify-content: space-between</h3>
+        <div class="flex-container exemplo1 justify-content-space-between">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+        <h3>Exemplo justify-content: space-evenly</h3>
+        <div class="flex-container exemplo1 justify-content-space-evenly">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
